@@ -54,7 +54,13 @@ body:{
 	"receiver_id": 1,
 	"text": "hey"
 }
-will return 
+```
+
+<p align=center>
+will return
+</p>
+
+```json
 {
 	"id": "909f6320-1804-442c-9624-c818d120bbe9",
 	"inbox_id": "7053c6ee-beff-405a-a31b-72b78bd2bc56",
@@ -66,16 +72,22 @@ will return
 
 <p align=center>
 You can get user inbox
+method: GET
+route:"/inbox"
 </p>
 
 ```json
-method: GET
-route:"/inbox"
 
 params:{
   "user":1
 }
-will return 
+```
+
+<p align=center>
+will return
+</p>
+
+```json
 [
 	{
 		"id": "a104a014-d8ba-4869-9f61-3b90d91aaaab",
@@ -92,16 +104,23 @@ will return
 
 <p align=center>
 With inbox_id in hand u can find all messages from this inbox
+method: GET
+route:"/message"
 </p>
 
 ```json
-method: GET
-route:"/message"
+
 
 params:{
   "inbox_id":"a104a014-d8ba-4869-9f61-3b90d91aaaab"
 }
-will return 
+```
+
+<p align=center>
+will return
+</p>
+
+```json
 [
 	{
 		"id": "ddc06c81-4770-4c3b-9ee2-257cfaf32848",

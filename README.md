@@ -63,6 +63,7 @@ will return
 	"text": "hey"
 }
 ```
+
 <p align=center>
 You can get user inbox
 </p>
@@ -88,9 +89,11 @@ will return
 	},
 ]
 ```
+
 <p align=center>
 With inbox_id in hand u can find all messages from this inbox
 </p>
+
 ```json
 method: GET
 route:"/message"

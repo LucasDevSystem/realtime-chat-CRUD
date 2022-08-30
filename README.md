@@ -49,7 +49,7 @@ route:"/message"
 
 ```json
 {
-body:{
+"body":{
 	"sender_id": 2,
 	"receiver_id": 1,
 	"text": "hey"
@@ -79,7 +79,7 @@ route:"/inbox"
 
 ```json
 {
-params:{
+"params":{
   "user":1
 }
 }
@@ -112,11 +112,11 @@ route:"/message"
 
 ```json
 
-{
-params:{
+
+"params":{
   "inbox_id":"a104a014-d8ba-4869-9f61-3b90d91aaaab"
 }
-}
+
 ```
 
 <p align=center>

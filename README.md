@@ -41,18 +41,19 @@ Lets Play
 <p align=center id="play" >
 First u need start a chat pass your id as "sender_id" and to receiver "receiver_id",
 the server will identify inexisting inbox and then create inbox and inbox users.
+method: POST
+route:"/message"
 </p>
 <h2 >
 </h2>
 
 ```json
-method: POST
-route:"/message"
-
+{
 body:{
 	"sender_id": 2,
 	"receiver_id": 1,
 	"text": "hey"
+}
 }
 ```
 
@@ -77,9 +78,10 @@ route:"/inbox"
 </p>
 
 ```json
-
+{
 params:{
   "user":1
+}
 }
 ```
 
@@ -110,9 +112,10 @@ route:"/message"
 
 ```json
 
-
+{
 params:{
   "inbox_id":"a104a014-d8ba-4869-9f61-3b90d91aaaab"
+}
 }
 ```
 

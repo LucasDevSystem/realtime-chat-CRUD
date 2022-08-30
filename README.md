@@ -48,13 +48,13 @@ route:"/message"
 </h2>
 
 ```json
-{
+
 "body":{
 	"sender_id": 2,
 	"receiver_id": 1,
 	"text": "hey"
 }
-}
+
 ```
 
 <p align=center>
@@ -78,11 +78,11 @@ route:"/inbox"
 </p>
 
 ```json
-{
+
 "params":{
   "user":1
 }
-}
+
 ```
 
 <p align=center>

@@ -6,6 +6,7 @@ import { connectionSource } from "./dataSource";
 import "./database";
 
 const PORT = process.env.APP_PORT;
+const HOST = process.env.APP_HOST;
 connectionSource;
 
 const app = express();
@@ -15,4 +16,4 @@ app.use(express.json());
 app.use(cors());
 app.use(routes);
 
-app.listen(3001, "192.168.18.179", () => console.log("server is running"));
+app.listen(PORT, HOST, () => console.log("server is running"));
